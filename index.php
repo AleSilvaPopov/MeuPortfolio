@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-white text-black">
 
     <?php include('./componentes/header.php'); ?>
 
@@ -27,7 +27,7 @@
     </main>
 
     <footer class="mx-auto max-w-screen-lg min-h-20">
-        <div class="border-t border-gray-600 px-3 pt-6 text-gray-400 text-sm">
+        <div class="border-t border-black px-3 pt-6 text-black-400 opacity-50 text-sm">
             @ Copyright <?=date('d M Y')?>, Construido por mim mesmo ;) .
         </div>
     </footer>

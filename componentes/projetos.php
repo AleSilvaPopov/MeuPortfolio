@@ -27,7 +27,7 @@
 
  <?php foreach ($projetos as $projeto): ?>
 <!-- Projeto -->
-<div class="bg-white text-black rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4">
+<div class="bg-black text-white rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4">
     <div class="w-full md:w-1/5 flex items-center justify-center">
         <img src="<?=$projeto['img'] ?>" class="h-38" alt="">
     </div>
