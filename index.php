@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-slate-900 text-white">
+<body class="bg-black text-white">
 
     <?php include('./componentes/header.php'); ?>
 

@@ -27,7 +27,7 @@
 
  <?php foreach ($projetos as $projeto): ?>
 <!-- Projeto -->
-<div class="bg-slate-800 rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4">
+<div class="bg-white text-black rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4">
     <div class="w-full md:w-1/5 flex items-center justify-center">
         <img src="<?=$projeto['img'] ?>" class="h-38" alt="">
     </div>
@@ -38,9 +38,9 @@
                 <?= $projeto['titulo'] ?>
 
                 <?php if($projeto['finalizado']): ?> 
-                    <span class="text-xs text-gray-400 opacity-50 italic">(Finalizado em <?= $projeto['ano'] ?>)</span>
+                    <span class="text-xs text-black-400 opacity-50 italic">(Finalizado em <?= $projeto['ano'] ?>)</span>
                 <?php else: ?>
-                     <span class="text-xs text-gray-400 opacity-50 italic">(Em progresso-<?= $projeto['ano'] ?>)</span>
+                     <span class="text-xs text-black-400 opacity-50 italic">(Em progresso-<?= $projeto['ano'] ?>)</span>
                 <?php endif;  ?>
             </h3>
             <div class="space-x-1 text-center md:text-right">
@@ -57,7 +57,7 @@
         <p class="leading-6">
             <?= $projeto['descricao'] ?>
             <?php if($projeto['link'] != 'null'): ?>
-                <a href=<?=$projeto['link']?> class="block" target="_blank">Para ver todo o código aperte aqui.</a>
+                <a href=<?=$projeto['link']?> class="block" target="_blank">Acessar todo o projeto.</a>
                 <?php endif ?>
         </p>
     </div>  
