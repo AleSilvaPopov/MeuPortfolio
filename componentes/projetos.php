@@ -27,13 +27,13 @@
 
  <?php foreach ($projetos as $projeto): ?>
 <!-- Projeto -->
-<div class="bg-slate-800 rounded-lg flex p-3 items-center">
-    <div class="w-1/5 flex items-center justify-middle">
+<div class="bg-slate-800 rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4">
+    <div class="w-full md:w-1/5 flex items-center justify-center">
         <img src="<?=$projeto['img'] ?>" class="h-38" alt="">
     </div>
-    <div class="w-4/5 space-y-3">
-        <div class="flex gap-3 justify-between">
-            <h3 class="font-semibold text-xl">
+    <div class="w-full md:w-4/5 space-y-3">
+        <div class="flex flex-col md:flex-row gap-3 md:justify-between">
+            <h3 class="font-semibold text-xl text-center md:text-left">
                 <?php if($projeto['finalizado']): ?>☑️<?php endif;  ?>
                 <?= $projeto['titulo'] ?>
 
@@ -43,7 +43,7 @@
                      <span class="text-xs text-gray-400 opacity-50 italic">(Em progresso-<?= $projeto['ano'] ?>)</span>
                 <?php endif;  ?>
             </h3>
-            <div class="space-x-1">
+            <div class="space-x-1 text-center md:text-right">
                 <?php 
                     $cores = ['sky', 'fuchsia', 'rose', 'amber', 'teal', 'purple'];
                     foreach($projeto['stack'] as $posicao => $linguagem): ?>

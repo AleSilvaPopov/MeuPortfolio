@@ -9,9 +9,9 @@ $itens = [
 
 ?>
 
-<section class="flex gap-x-3">
+<section class="flex flex-col-reverse gap-6 md:flex-row md:gap-x-3">
     <!-- Titulos e Descrição -->
-    <div class="w-2/3">
+    <div class="w-full md:w-2/3">
         <h1 class="text-3xl font-bold">Sobre mim</h1>
         <p class="text-xl leading-6 mt-6">
             Estudante do 4º semestre de Engenharia de Computação na UFGD, focado em desenvolvimento de software. 
@@ -32,7 +32,7 @@ $itens = [
     </div>
 
     <!-- Imagem -->
-    <div class="w-1/3 flex items-center justify-center">
+    <div class="w-full md:w-1/3 flex items-center justify-center">
         <div>
             <img class="h-60 -mt-6 hover:animate-pulse" src="/img/avatar.png" alt="Alexandre Popov">
         </div>

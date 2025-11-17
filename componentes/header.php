@@ -7,7 +7,7 @@ $itens = [
 ];
 ?>
 
-<header class="mx-auto max-w-screen-lg px-3 py-6 flex items-center justify-between">
+<header class="mx-auto max-w-screen-lg px-3 py-6 flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
     <!-- Logo -->
     <div class="font-bold text-xl text-cyan-600">
         🚀Alexandre Popov
