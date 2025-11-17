@@ -1,4 +1,4 @@
-# **Meu Portfólio:** [Portfolio](https://https://alepopov.gt.tc/)
+# **Meu Portfólio:** [Acesse](https://alepopov.gt.tc)
 
 Este é o código-fonte do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e informações de contato. O site é construído de forma modular usando PHP para componentização e gerenciamento de dados, e estilizado com Tailwind CSS.
 
