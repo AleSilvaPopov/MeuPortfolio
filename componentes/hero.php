@@ -1,7 +1,7 @@
 <?php
 
 $itens = [
-    ['href' => 'https://www.instagram.com/alesilvayx/', 'src' => '/img/instagram_icon.png', 'alt' => 'Instagram Logo'],
+    ['href' => 'https://www.instagram.com/alesilvayx/', 'src' => '/img/Instagram_icon.png', 'alt' => 'Instagram Logo'],
     ['href' => 'https://wa.me/5511963826052/?text=oi', 'src' => '/img/whatsapp_icon.png', 'alt' => 'WhatsApp Logo'],
     // ['href' => '', 'src' => '/img/linkedin.png', 'alt' => 'Linkedin Logo'],
 ];
@@ -12,7 +12,7 @@ $itens = [
 <section class="flex gap-x-3">
     <!-- Titulos e Descrição -->
     <div class="w-2/3">
-        <h1 class="text-3xl font-bold">Alexandre Popov!</h1>
+        <h1 class="text-3xl font-bold">Sobre mim</h1>
         <p class="text-xl leading-6 mt-6">
             Estudante do 4º semestre de Engenharia de Computação na UFGD, focado em desenvolvimento de software. 
             Possui conhecimentos em C++, Python e PHP, e busca aplicar essa base técnica na resolução de problemas
