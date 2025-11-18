@@ -1,4 +1,4 @@
-<section class="flex flex-col-reverse gap-6 md:flex-row md:gap-x-3" data-aos="fade-in" data-aos-duration="1500"> 
+<section class="flex flex-col-reverse gap-6 md:flex-row md:gap-x-3" data-aos="fade-in" data-aos-duration="1500">
     <!-- Titulos e Descrição -->
     <div class="w-full md:w-2/3">
         <h1 class="text-3xl font-bold">Sobre mim</h1>
