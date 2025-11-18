@@ -1,4 +1,13 @@
 <?php
+// Captura o filtro atual da URL
+$filtro_url = $_GET['filtro'] ?? '';
+
+// Prepara o href do link "Projetos" para manter o filtro ativo, se houver.
+$projetos_href = '#projetos';
+if (!empty($filtro_url)) {
+    // Adiciona o filtro na URL se o usuário navegar para "Projetos" de volta para o topo da página
+    $projetos_href = '?filtro=' . urlencode($filtro_url) . '#projetos';
+}
 
 $itens = [
     ['href' => '#projetos', 'texto' => 'Projetos'],
