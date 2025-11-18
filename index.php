@@ -9,7 +9,9 @@
     </a>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body class="bg-black text-white">
@@ -32,6 +34,21 @@
             @ Copyright <?= date('d M Y') ?>, Construido por mim mesmo ;) .
         </div>
     </footer>
+
+    <!-- 2. AOS JS (ADICIONADO) -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // 3. Inicialização do AOS (ADICIONADO)
+        AOS.init({
+            // Atraso aplicado ao elemento (opcional, mas recomendado)
+            delay: 200,
+            // Desabilitar animações em dispositivos móveis (opcional)
+            disable: 'mobile',
+            // Uma vez que o elemento é animado, ele não anima mais na subida (evita repetição)
+            once: true,
+        });
+    </script>
+
 </body>
 
 </html>

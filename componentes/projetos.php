@@ -21,46 +21,58 @@ $projetos = [
         "img" => "/img/grafo.png",
     ],
 ];
+?>
 
+<?php 
+    // Inicialize o delay da animação
+    $delay = 0;
+    foreach ($projetos as $projeto): 
+    
+    // Incrementa o delay em 150ms para cada card
+    $delay += 150; 
 ?>
 
 
-<?php foreach ($projetos as $projeto): ?>
-    <!-- Projeto -->
-    <div class="bg-white text-black rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4 border border-black">
-        <div class="w-full md:w-1/5 flex items-center justify-center">
-            <img src="<?= $projeto['img'] ?>" class="h-38" alt="">
-        </div>
-        <div class="w-full md:w-4/5 space-y-3">
-            <div class="flex flex-col md:flex-row gap-3 md:justify-between">
-                <h3 class="font-semibold text-xl text-center md:text-left">
-                    <?php if ($projeto['finalizado']): ?>☑️<?php endif;  ?>
-                    <?= $projeto['titulo'] ?>
+<!-- Projeto -->
+<!-- ADICIONE A ANIMAÇÃO AOS COM DELAY VARIÁVEL -->
+<div 
+    class="bg-white text-black rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4 border border-black"
+    data-aos="fade-up" 
+    data-aos-delay="<?= $delay ?>"
+>
+    <div class="w-full md:w-1/5 flex items-center justify-center">
+        <img src="<?=$projeto['img'] ?>" class="h-38" alt="">
+    </div>
+    <div class="w-full md:w-4/5 space-y-3">
+        <div class="flex flex-col md:flex-row gap-3 md:justify-between">
+            <h3 class="font-semibold text-xl text-center md:text-left">
+                <?php if($projeto['finalizado']): ?>☑️<?php endif;  ?>
+                <?= $projeto['titulo'] ?>
 
-                    <?php if ($projeto['finalizado']): ?>
-                        <span class="text-xs text-black-400 opacity-50 italic">(Finalizado em <?= $projeto['ano'] ?>)</span>
-                    <?php else: ?>
-                        <span class="text-xs text-black-400 opacity-50 italic">(Em progresso-<?= $projeto['ano'] ?>)</span>
-                    <?php endif;  ?>
-                </h3>
-                <div class="space-x-1 text-center md:text-right">
-                    <?php
-                    $cores = ['gray']; // Use apenas uma cor neutra
-                    $text_colors = ['black']; // Use apenas uma cor neutra
-                    foreach ($projeto['stack'] as $posicao => $linguagem): ?>
-                        <span class="bg-<?= $cores[0] ?>-200 text-<?= $text_colors[0] ?> rounded-md px-2 py-1 font-semibold text-xs">
+                <?php if($projeto['finalizado']): ?> 
+                    <span class="text-xs text-black-400 opacity-50 italic">(Finalizado em <?= $projeto['ano'] ?>)</span>
+                <?php else: ?>
+                     <span class="text-xs text-black-400 opacity-50 italic">(Em progresso-<?= $projeto['ano'] ?>)</span>
+                <?php endif;  ?>
+            </h3>
+            <div class="space-x-1 text-center md:text-right">
+                <?php 
+                    $cores = ['gray', 'neutral', 'stone' ,'zinc']; 
+                    $text_colors = ['black']; 
+                    foreach($projeto['stack'] as $posicao => $linguagem): ?>
+                        <span class="bg-<?= $cores[$posicao] ?>-400 text-<?= $text_colors[0] ?> rounded-md px-2 py-1 font-semibold text-xs">
                             <?= $linguagem ?>
                         </span>
-                    <?php endforeach; ?>
-                </div>
+                <?php endforeach; ?>
             </div>
-
-            <p class="leading-6">
-                <?= $projeto['descricao'] ?>
-                <?php if ($projeto['link'] != 'null'): ?>
-                    <a href=<?= $projeto['link'] ?> class="block" target="_blank">Acessar todo o projeto.</a>
-                <?php endif ?>
-            </p>
         </div>
-    </div>
-<?php endforeach; ?>
+
+        <p class="leading-6">
+            <?= $projeto['descricao'] ?>
+            <?php if($projeto['link'] != 'null'): ?>
+                <a href=<?=$projeto['link']?> class="block hover:underline" target="_blank">Acessar todo o projeto.</a>
+                <?php endif ?>
+        </p>
+    </div>  
+</div>
+ <?php endforeach;?>
