@@ -9,13 +9,13 @@ $itens = [
 
 <header class="mx-auto max-w-screen-lg px-3 py-6 flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
     <!-- Logo -->
-    <div class="font-bold text-xl text-black">
+    <div class="font-bold text-xl text-white">
         🚀Alexandre Popov
     </div>
 
     <!-- links -->
     <div class="">
-        <ul class="flex gap-x-3 font-medium text-black opacity-80">
+        <ul class="flex gap-x-3 font-medium text-white opacity-80">
             <?php $totalItens = count($itens);
             foreach ($itens as $index => $item):
 
