@@ -29,7 +29,6 @@ foreach ($projetos as $projeto) {
 $stacks_unicas = array_unique($stacks_unicas);
 
 $filtro_ativo = $_GET['filtro'] ?? '';
-$delay = 0;
 ?>
 
 <div class="mb-6 flex flex-wrap gap-2 items-center">
