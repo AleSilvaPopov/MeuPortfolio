@@ -57,7 +57,7 @@ $projetos = [
             </h3>
             <div class="space-x-1 text-center md:text-right">
                 <?php 
-                    $cores = ['gray', 'neutral', 'stone' ,'zinc']; 
+                    $cores = ['gray', 'neutral', 'slate' ,'stone' ,'zinc']; 
                     $text_colors = ['black']; 
                     foreach($projeto['stack'] as $posicao => $linguagem): ?>
                         <span class="bg-<?= $cores[$posicao] ?>-400 text-<?= $text_colors[0] ?> rounded-md px-2 py-1 font-semibold text-xs">

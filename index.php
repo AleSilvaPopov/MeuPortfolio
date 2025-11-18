@@ -43,7 +43,7 @@
             // Atraso aplicado ao elemento (opcional, mas recomendado)
             delay: 200,
             // Desabilitar animações em dispositivos móveis (opcional)
-            disable: 'mobile',
+            //disable: 'mobile',
             // Uma vez que o elemento é animado, ele não anima mais na subida (evita repetição)
             once: true,
         });
