@@ -10,7 +10,7 @@ if (!empty($filtro_url)) {
 }
 
 $itens = [
-    ['href' => '#projetos', 'texto' => 'Projetos'],
+    ['href' => $projetos_href, 'texto' => 'Projetos'],
     ['href' => 'https://github.com/AleSilvaPopov', 'texto' => 'Github'],
     ['href' => 'https://judge.beecrowd.com/pt/profile/1114399', 'texto' => 'Beecrow'],
 ];

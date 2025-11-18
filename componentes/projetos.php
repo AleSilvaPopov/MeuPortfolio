@@ -27,6 +27,7 @@ foreach ($projetos as $projeto) {
     $stacks_unicas = array_merge($stacks_unicas, $projeto['stack']);
 }
 $stacks_unicas = array_unique($stacks_unicas);
+
 $filtro_ativo = $_GET['filtro'] ?? '';
 $delay = 0;
 ?>
@@ -34,7 +35,7 @@ $delay = 0;
 <div class="mb-6 flex flex-wrap gap-2 items-center">
     <span class="font-semibold text-white">Filtrar por:</span>
 
-    <a href="#projetos"
+    <a href="index.php#projetos"
         class="px-3 py-1 text-sm rounded-full border transition-all duration-300
        <?= empty($filtro_ativo) ? 'bg-white text-black font-bold border-white' : 'bg-transparent text-white border-white hover:bg-white hover:text-black' ?>">
         Todos
