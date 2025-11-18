@@ -19,7 +19,7 @@
     <!-- Imagem -->
     <div class="w-full md:w-1/3 flex items-center justify-center">
         <div data-aos="zoom-in" data-aos-delay="500">
-            <img class="h-60 -mt-6 hover:animate-pulse" src="/img/avatar.png" alt="Alexandre Popov">
+            <img class="h-60 -mt-6 hover:animate-pulse" src="/img/avatar1.png" alt="Alexandre Popov">
         </div>
     </div>
 </section>
