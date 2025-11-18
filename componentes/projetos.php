@@ -7,7 +7,7 @@ $projetos = [
         "descricao" => "Portfólio pessoal desenvolvido com HTML para a estrutura, CSS para o design 
                 visual, e PHP para a lógica de backend e funcionalidades dinâmicas.",
         "stack" => ["PHP", "HTML", "CSS", "JS"],
-        "img" => "",
+        "img" => "/img/portfolio.png",
         "link" => "null",
     ],
     [
@@ -18,7 +18,7 @@ $projetos = [
                 mais curto entre dois estados brasileiros com base em uma matriz de adjacências. ",
         "link" => "https://github.com/AleSilvaPopov/Grafo-e-Dijkstra",
         "stack" => ["C++"],
-        "img" => "/img/grafo.png",
+        "img" => "/img/grafo1.png",
     ],
 ];
 
@@ -72,8 +72,8 @@ $filtro_ativo = $_GET['filtro'] ?? '';
             data-aos="fade-up"
             data-aos-delay="<?= $delay ?>">
 
-            <div class="w-full md:w-1/5 flex items-center justify-center">
-                <img src="<?= $projeto['img'] ?>" class="h-38" alt="">
+            <div class="w-full md:w-1/5 flex items-center justify-center **p-2**">
+                <img src="<?= $projeto['img'] ?>" class="**h-32 md:h-full max-h-40** **object-contain**" alt="<?= $projeto['titulo'] ?>">
             </div>
             <div class="w-full md:w-4/5 space-y-3">
                 <div class="flex flex-col md:flex-row gap-3 md:justify-between">
