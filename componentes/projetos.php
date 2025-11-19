@@ -20,6 +20,15 @@ $projetos = [
         "stack" => ["C++"],
         "img" => "/img/grafo1.png",
     ],
+    [
+        "titulo" => "Recomendação de Filmes/Séries",
+        "ano" => 2025,
+        "finalizado" => false,
+        "descricao" => "...",
+        "stack" => ["Python"],
+        "img" => "/img/filmes.png",
+        "link" => "null",
+    ],
 ];
 
 $stacks_unicas = [];
