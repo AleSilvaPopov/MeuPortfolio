@@ -64,7 +64,7 @@ $loop_infinito = array_merge($tecnologias, $tecnologias);
 
 <div class="py-10 overflow-hidden group">
     <h3 class="text-center text-xl font-bold mb-6 text-gray-800 dark:text-white">
-        Minha Stack Tecnológica
+        Tecnologias & Ferramentas
     </h3>
 
     <div class="relative max-w-screen-lg mx-auto mask-image-gradient">
