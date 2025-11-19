@@ -8,6 +8,12 @@
              de problemas complexos e na criação de soluções back-end eficientes e escaláveis.
         </p>
         <a
+            href="mailto:alexandrepopov4@gmail.com?subject=Olá, vi seu portfólio e gostaria de conversar sobre um projeto."
+            target="_blank"
+            class="mt-6 inline-block bg-white text-black font-semibold px-6 py-3 rounded-lg shadow-xl hover:bg-gray-200 transition duration-300 transform hover:scale-105">
+            Enviar Email 📧
+        </a>
+        <a
             href="https://wa.me/5511963826052/?text=Olá, vi seu portfólio e gostaria de conversar sobre um projeto."
             target="_blank"
             class="mt-6 inline-block bg-white text-black font-semibold px-6 py-3 rounded-lg shadow-xl hover:bg-gray-200 transition duration-300 transform hover:scale-105">
