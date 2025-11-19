@@ -47,7 +47,10 @@ $filtro_ativo = $_GET['filtro'] ?? '';
 
     <a href="index.php#projetos"
         class="px-3 py-1 text-sm rounded-full border transition-all duration-300
-       <?= empty($filtro_ativo) ? 'bg-white text-black font-bold border-white' : 'bg-transparent text-white border-white hover:bg-white hover:text-black' ?>">
+       <?= empty($filtro_ativo)
+            ? 'bg-black text-white dark:bg-white dark:text-black font-bold border-transparent' : 'bg-transparent text-black
+            border-black dark:text-white dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black'
+        ?>">
         Todos
     </a>
 
@@ -59,7 +62,10 @@ $filtro_ativo = $_GET['filtro'] ?? '';
         ?>
         <a href="<?= $link_filtro ?>"
             class="px-3 py-1 text-sm rounded-full border transition-all duration-300
-           <?= $is_active ? 'bg-white text-black font-bold border-white' : 'bg-transparent text-white border-white hover:bg-white hover:text-black' ?>">
+           <?= $is_active
+                ? 'bg-black text-white dark:bg-white dark:text-black font-bold border-transparent'
+                : 'bg-transparent text-black border-black dark:text-white dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black'
+            ?>">
             <?= $stack ?>
         </a>
     <?php endforeach; ?>
@@ -79,7 +85,8 @@ $filtro_ativo = $_GET['filtro'] ?? '';
 
         <!-- Projeto -->
         <div
-            class="bg-white text-black rounded-lg flex flex-col md:flex-row p-3 md:items-center gap-4 border border-black"
+            class="bg-black text-white dark:bg-white dark:text-black rounded-lg flex flex-col md:flex-row p-3 md:items-center 
+            gap-4 border border-white dark:border-black"
             data-aos="fade-up"
             data-aos-delay="<?= $delay ?>">
 

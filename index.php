@@ -8,14 +8,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/dev1.png">
     </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"> -->
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {}
+            }
+        }
+    </script>
 </head>
 
-<body class="bg-black text-white">
-
+<body class="bg-gray-100 text-gray-900 dark:bg-black dark:text-white transition-colors duration-300">
     <?php include('./componentes/header.php'); ?>
 
     <main class="mx-auto max-w-screen-lg min-h-20 px-3 py-6">
@@ -30,7 +38,7 @@
     </main>
 
     <footer class="mx-auto max-w-screen-lg min-h-20">
-        <div class="border-t border-white px-3 pt-6 text-white-400 opacity-50 text-sm">
+        <div class="border-t border-white dark:border-white px-3 pt-6 text-white-400 pt-6 dark:text-black-400 opacity-50 text-sm">
             @ Copyright <?= date('d M Y') ?>, Construido por mim mesmo ;) .
         </div>
     </footer>
@@ -49,6 +57,7 @@
         });
     </script>
 
+    <script src="/darkmode.js"></script>
 </body>
 
 </html>

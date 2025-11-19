@@ -8,17 +8,21 @@
             de problemas complexos e na criação de soluções back-end eficientes e escaláveis.
         </p>
 
-        <div class="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0 mt-8"> 
+        <div class="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0 mt-8">
             <a
                 href="mailto:alexandrepopov4@gmail.com?subject=Olá, vi seu portfólio e gostaria de conversar sobre um projeto."
                 target="_blank"
-                class="w-full max-w-sm sm:flex-1 inline-block bg-white text-black font-semibold px-6 py-4 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105 text-center whitespace-nowrap">
+                class="w-full max-w-sm sm:flex-1 inline-block font-semibold px-6 py-4 rounded-lg shadow-lg transition
+                       duration-300 transform hover:scale-105 text-center whitespace-nowrap bg-black text-white hover:bg-gray-900
+                       dark:bg-white dark:text-black dark:hover:bg-gray-300">
                 Enviar Email 📧
             </a>
             <a
                 href="https://wa.me/5511963826052/?text=Olá, vi seu portfólio e gostaria de conversar sobre um projeto."
                 target="_blank"
-                class="w-full max-w-sm sm:flex-1 inline-block bg-white text-black font-semibold px-6 py-4 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105 text-center whitespace-nowrap">
+                class="w-full max-w-sm sm:flex-1 inline-block font-semibold px-6 py-4 rounded-lg shadow-lg transition
+                       duration-300 transform hover:scale-105 text-center whitespace-nowrap bg-black text-white hover:bg-gray-900
+                       dark:bg-white dark:text-black dark:hover:bg-gray-300">
                 Conversar no WhatsApp 💬
             </a>
         </div>
