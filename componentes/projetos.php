@@ -3,7 +3,7 @@ $projetos = [
     [
         "titulo" => "Meu Portfólio",
         "ano" => 2025,
-        "finalizado" => false,
+        "finalizado" => true,
         "descricao" => "Portfólio pessoal desenvolvido com HTML para a estrutura, CSS para o design 
                 visual, e PHP para a lógica de backend e funcionalidades dinâmicas.",
         "stack" => ["PHP", "HTML", "CSS", "JS"],

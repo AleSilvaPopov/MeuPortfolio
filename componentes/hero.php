@@ -1,12 +1,11 @@
 <section class="flex flex-col-reverse gap-6 md:flex-row md:gap-x-3" data-aos="fade-in" data-aos-duration="1500">
     <!-- Titulos e Descrição -->
     <div class="w-full md:w-2/3">
-        <h1 class="text-3xl font-bold">Sobre mim</h1>
+        <h1 class="text-3xl font-bold">Desenvolvedor Back-end (Estudante)</h1>
         <p class="text-xl leading-6 mt-6">
-            Estudante do 4º semestre de Engenharia de Computação na UFGD, focado em desenvolvimento de software.
-            Possui conhecimentos em C++, Python e PHP, e busca aplicar essa base técnica na resolução de problemas
-            complexos e no desenvolvimento de soluções eficientes.
-
+            Estudante do 4º semestre de Engenharia de Computação na UFGD, com forte base em desenvolvimento de software
+             e proficiência em C++, Python e PHP. Busco uma oportunidade para aplicar minhas habilidades técnicas na resolução 
+             de problemas complexos e na criação de soluções back-end eficientes e escaláveis.
         </p>
         <a
             href="https://wa.me/5511963826052/?text=Olá, vi seu portfólio e gostaria de conversar sobre um projeto."
