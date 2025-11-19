@@ -5,7 +5,7 @@ $projetos = [
         "ano" => 2025,
         "finalizado" => true,
         "descricao" => "Portfólio pessoal desenvolvido com HTML para a estrutura, CSS para o design 
-                visual, e PHP para a lógica de backend e funcionalidades dinâmicas.",
+                        visual, e PHP para a lógica de backend e funcionalidades dinâmicas.",
         "stack" => ["PHP", "HTML", "CSS", "JS"],
         "img" => "/img/portfolio.png",
         "link" => "null",
@@ -15,7 +15,7 @@ $projetos = [
         "ano" => 2025,
         "finalizado" => true,
         "descricao" => "Este projeto é uma implementação em C++ do algoritmo de Dijkstra, projetada para encontrar o caminho 
-                mais curto entre dois estados brasileiros com base em uma matriz de adjacências. ",
+                        mais curto entre dois estados brasileiros com base em uma matriz de adjacências. ",
         "link" => "https://github.com/AleSilvaPopov/Grafo-e-Dijkstra",
         "stack" => ["C++"],
         "img" => "/img/grafo1.png",
@@ -24,10 +24,12 @@ $projetos = [
         "titulo" => "Recomendação de Filmes/Séries",
         "ano" => 2025,
         "finalizado" => false,
-        "descricao" => "...",
+        "descricao" => "Este projeto é um Sistema de Recomendação Híbrido em Python, focado em
+                        sugerir filmes e séries de forma precisa. O sistema combina Processamento de Linguagem 
+                        Natural (NLP) e Teoria dos Grafos (NetworkX) para alavancar a similaridade de conteúdo e de conexões.",
         "stack" => ["Python"],
         "img" => "/img/filmes.png",
-        "link" => "null",
+        "link" => "https://github.com/AleSilvaPopov/Grafos_Disney",
     ],
 ];
 
