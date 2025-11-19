@@ -42,8 +42,7 @@ $stacks_unicas = array_unique($stacks_unicas);
 $filtro_ativo = $_GET['filtro'] ?? '';
 ?>
 
-<div class="mb-6 flex flex-wrap gap-2 items-center">
-    <span class="font-semibold text-white">Filtrar por:</span>
+<div class="mb-6 flex flex-wrap gap-2 items-center justify-center">
 
     <a href="index.php#projetos"
         class="px-3 py-1 text-sm rounded-full border transition-all duration-300

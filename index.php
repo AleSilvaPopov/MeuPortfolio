@@ -23,16 +23,18 @@
     </script>
 </head>
 
-<body class="bg-gray-100 text-gray-900 dark:bg-black dark:text-white transition-colors duration-300">
+<body class="bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
     <?php include('./componentes/header.php'); ?>
 
     <main class="mx-auto max-w-screen-lg min-h-20 px-3 py-6">
         <!-- Hero -->
         <?php include('./componentes/hero.php'); ?>
 
+        <?php include('./componentes/stack.php'); ?>
+
         <!-- Projetos -->
         <section class="space-y-3 py-6" id="projetos">
-            <h2 class="text-2xl font-bold">Meus Projetos</h2>
+            <h2 class="text-2xl font-bold text-center text-black dark:text-white">Meus Projetos</h2>
             <?php include('./componentes/projetos.php') ?>
         </section>
     </main>
