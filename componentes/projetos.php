@@ -23,13 +23,22 @@ $projetos = [
     [
         "titulo" => "Recomendação de Filmes/Séries",
         "ano" => 2025,
-        "finalizado" => false,
+        "finalizado" => true,
         "descricao" => "Este projeto é um Sistema de Recomendação Híbrido em Python, focado em
                         sugerir filmes e séries de forma precisa. O sistema combina Processamento de Linguagem 
                         Natural (NLP) e Teoria dos Grafos (NetworkX) para alavancar a similaridade de conteúdo e de conexões.",
         "stack" => ["Python"],
         "img" => "/img/filmes.png",
         "link" => "https://github.com/AleSilvaPopov/Grafos_Disney",
+    ],
+    [
+        "titulo" => "Book-Wise",
+        "ano" => 2025,
+        "finalizado" => False,
+        "descricao" => "...",
+        "stack" => ["PHP", "HTML", "CSS"],
+        "img" => "/img/bookwise.png",
+        "link" => "null",
     ],
 ];
 
